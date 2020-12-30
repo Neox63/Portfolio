@@ -1,15 +1,27 @@
 import { Fragment } from 'react';
+import AboutMe from '../AboutMe/AboutMe.jsx';
 import Hero from '../Sections/Hero/Hero.jsx';
 import Projects from '../Sections/Projects/Projects.jsx';
 import Skills from '../Sections/Skills/Skills.jsx';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
       <Fragment>
-        <Hero />
+        <div id="landing">
+          <Hero />
+        </div>
+        <div id="about">
+          <AboutMe />
+        </div>
+
+        <div id="skills">
         <Skills />
-        <Projects />
+        </div>
+
+        <div id="projects">
+          <Projects />
+        </div>
       </Fragment>
   );
 }

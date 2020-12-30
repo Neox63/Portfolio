@@ -1,17 +1,25 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import './Hero.css';
 
 const Hero = () => {
     return (
         <div className="d-flex flex-column align-items-center justify-content-center vh-100">
-            <div className="d-flex flex-column justify-content-center p-3">
-                <h2><span style={{ color: '#569CD6' }}>&lt;Welcome&gt;</span></h2>
-                <h5 className="ml-5"><span style={{ color: '#569CD6' }}>&lt;Greetings&gt;</span>Hey ! Welcome to my portfolio<span style={{ color: '#569CD6' }}>&lt;/Greetings&gt;</span></h5>
-                <h5 className="ml-5"><span style={{ color: '#569CD6' }}>&lt;Name&gt;</span>I'm Mathis<span style={{ color: '#569CD6' }}>&lt;/Name&gt;</span></h5>
-                <h5 className="ml-5"><span style={{ color: '#569CD6' }}>&lt;WhoAmI&gt;</span>A French Full-Stack Web Developer<span style={{ color: '#569CD6' }}>&lt;/WhoAmI&gt;</span></h5>
-                <h2><span style={{ color: '#569CD6' }}>&lt;/Welcome&gt;</span></h2>
-                <h4 className="mt-5 comment">&lt;!-- Keep Scrolling --&gt;</h4>
+            <div className="d-flex flex-column justify-content-center p-2">
+                <h4><span style={{ color: '#D197D9' }}>import </span><a style={{ color: '#569CD6' }} href='#about'>ThingsAboutMe </a><span style={{ color: '#D197D9' }}>from </span><span style={{ color: '#CE9178' }}>'./Me'</span> ;</h4>
+                <h4><span style={{ color: '#D197D9' }}>import </span><a style={{ color: '#569CD6' }} href='#skills'>Skills </a><span style={{ color: '#D197D9' }}>from </span><span style={{ color: '#CE9178' }}>'./StackOverflow'</span> ;</h4>
+                <h4 className="mb-4"><span style={{ color: '#D197D9' }}>import </span><a style={{ color: '#569CD6' }} href='#projects'>Projects </a><span style={{ color: '#D197D9' }}>from </span><span style={{ color: '#CE9178' }}>'./NoSleep'</span> ;</h4>
+
+                <h3><span style={{ color: '#569CD6' }}>const</span> <span style={{ color: '#CCDF32' }}>Portfolio</span> = <span style={{ color: '#CCDF32' }}>( )</span> <span style={{ color: '#569CD6' }}>=&gt;</span> <span style={{ color: '#CCDF32' }}>&#123;</span> </h3>
+                <h4 style={{ color: '#D197D9' }} className="ml-5">return (</h4>
+                <h4 style={{marginLeft: '90px'}}><span style={{ color: '#569CD6' }}>&lt;Welcome&gt;</span></h4>
+                <h4 style={{marginLeft: '140px'}}>Hey ! I'm Mathis, A Full-Stack Web Developer</h4>
+                <h4 style={{marginLeft: '90px'}}><span style={{ color: '#569CD6' }}>&lt;/Welcome&gt;</span></h4>
+                <h4 className="ml-5"><span style={{ color: '#D197D9' }}>)</span> ;</h4>
+                <h3><span style={{ color: '#CCDF32' }}>&#125;</span></h3>
+                <h4 className="mt-3 comment">/* Cool things below */</h4>
             </div>
         </div>
+        
     )
 }
 
