@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
-import AboutMe from '../AboutMe/AboutMe.jsx';
-import Hero from '../Sections/Hero/Hero.jsx';
-import Projects from '../Sections/Projects/Projects.jsx';
-import Skills from '../Sections/Skills/Skills.jsx';
+import AboutMe from '../AboutMe/AboutMe';
+import Hero from '../Sections/Hero/Hero';
+import Projects from '../Sections/Projects/Projects';
+import Skills from '../Sections/Skills/Skills';
 import './App.css';
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
         <div id="landing">
           <Hero />
         </div>
+        
         <div id="about">
           <AboutMe />
         </div>
