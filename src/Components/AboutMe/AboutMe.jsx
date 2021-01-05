@@ -5,10 +5,11 @@ import Container from '../Container/Container';
 import SocialCard from '../Card/SocialCard/SocialCard';
 import './AboutMe.css';
 
-import pp from '../../assets/images/def.png';
+import { getGithubPic } from '../github';
 
 const AboutMe = () => {
     const [age, setAge] = useState(0);
+    const [pp, setPP] = useState('');
     
     const calculateAge = (birthday) => {
         const diff = Date.now() - birthday.getTime();
@@ -16,7 +17,13 @@ const AboutMe = () => {
         setAge(Math.abs(currentAge.getUTCFullYear() - 1970));
     }
 
+    const getData = async () => {
+        const data = await getGithubPic();
+        setPP(data);
+    }
+
     useEffect(() => {
+        getData();
         const birthday = new Date(2001, 9, 30);
         calculateAge(birthday);
     }, []);
