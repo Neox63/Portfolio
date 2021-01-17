@@ -4,7 +4,7 @@ import './SocialCard.css';
 const SocialCard = ({ children, link }) => {
     return (
         <Fragment>
-            <div className="social d-flex justify-content-center align-items-center m-3">
+            <div className="social d-flex flex-column justify-content-center align-items-center m-3">
                 <a href={link}>
                     { children }
                 </a>

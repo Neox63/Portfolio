@@ -13,7 +13,7 @@ const Hero = () => {
                 <h3><span style={{ color: '#569CD6' }}>const</span> <span style={{ color: '#CCDF32' }}>Welcome</span> = <span style={{ color: '#CCDF32' }}>()</span> <span style={{ color: '#569CD6' }}>=&gt;</span> <span style={{ color: '#CCDF32' }}>&#123;</span> </h3>
                 <h4 style={{ color: '#D197D9' }} className="ml-5">return (</h4>
                 <h4 style={{marginLeft: '90px'}}><span style={{ color: '#569CD6' }}>&lt;Greetings&gt;</span></h4>
-                <h4 style={{marginLeft: '140px'}}>Hello there ! I'm Mathis, A Full-Stack Web Developer.</h4>
+                <h4 style={{marginLeft: '140px'}}>Hello there ! I'm Mathis, Full-Stack Web Developer.</h4>
                 <h4 style={{marginLeft: '90px'}}><span style={{ color: '#569CD6' }}>&lt;/Greetings&gt;</span></h4>
                 <h4 className="ml-5"><span style={{ color: '#D197D9' }}>)</span>;</h4>
                 <h3><span style={{ color: '#CCDF32' }}>&#125;</span></h3>
