@@ -12,7 +12,6 @@ const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, deprecated
                     { (repo) ? (<h5><span className="word-break badge badge-pill badge-primary mr-2">Open Source</span></h5>) : ('') }
                 </div>
                 <h5 className="card-title">{ title }</h5>
-                { (repo) ? (<a className="github-button" href={repo} data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star Neox63/Covid19-Tracker on GitHub">Star</a>) : ('')}
                 <p className="card-text">{ desc }</p>
                 <div className="d-flex justify-content-center flex-wrap language-logo"> 
                     { children }

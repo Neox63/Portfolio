@@ -5,7 +5,7 @@ const SocialCard = ({ children, link }) => {
     return (
         <Fragment>
             <div className="social d-flex flex-column justify-content-center align-items-center m-3">
-                <a href={link}>
+                <a target="_blank" rel="noopener noreferrer" href={link}>
                     { children }
                 </a>
             </div>

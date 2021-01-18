@@ -3,7 +3,6 @@
 import React, { Fragment } from 'react';
 import ProjectCard from '../../Card/ProjectCard/ProjectCard';
 import Container from '../../Container/Container';
-import './Projects.css';
 
 // Web pictures imports
 import covid from '../../../assets/images/covidtracker.png';
@@ -33,6 +32,7 @@ const Projects = () => {
                         img={ portfolio } 
                         title="My Portfolio" 
                         desc="Yes, it's that portfolio you're thinking about."
+                        prod="/"
                     >
                         <div className="ml-4 mr-4">
                             <i style={{ color: '#01CFF4' }} className="fab fa-react"></i>

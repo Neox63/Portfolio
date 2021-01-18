@@ -11,8 +11,8 @@ i {
 }
 
 .img {
-    border: 4px solid #43BC90;
     border-radius: 15px;
+    filter: drop-shadow(0 0 0.85rem #9C69E0);
 }
 
 .img-wrapper img{
