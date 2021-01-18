@@ -62,15 +62,15 @@ const AboutMe = () => {
                         <h4 className="mb-4">If you want to get in touch, check out my social medias below</h4>
                         <h6 className="comment">/* I'm a nerd, you'll get an answer quickly */</h6>
                         <Container>
-                            <SocialCard link="https://github.com/Neox63">
+                            <SocialCard color="#fff" link="https://github.com/Neox63">
                                 <i style={{ color: '#fff' }} className='fab fa-github'></i>
                             </SocialCard>
 
-                            <SocialCard link="https://twitter.com/ma_this_">
+                            <SocialCard color="#1DA1F2" link="https://twitter.com/ma_this_">
                                 <i style={{ color: '#1DA1F2' }} className='fab fa-twitter'></i>
                             </SocialCard>
 
-                            <SocialCard link="mailto:mathischambon85@gmail.com">
+                            <SocialCard color="#b7453e" link="mailto:mathischambon85@gmail.com">
                                 <i style={{ color: '#b7453e' }} className='fas fa-paper-plane'></i>
                             </SocialCard>
                         </Container>
