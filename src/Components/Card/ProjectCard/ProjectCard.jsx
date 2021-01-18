@@ -1,6 +1,7 @@
 import './ProjectCard.css';
 
 const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, deprecated, schoolProject }) => {
+
     return (
         <div className="card m-3">
             <img className="card-img-top" src={ img } alt={ title } />

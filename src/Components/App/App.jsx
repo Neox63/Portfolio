@@ -24,8 +24,8 @@ const App = () => {
         touchControls: false,
         gyroControls: false,
         color: 0x7787,
-        maxDistance: 13.00,
-        spacing: 10.00,
+        maxDistance: 15.00,
+        spacing: 15.00,
       }))
     }
 
