@@ -36,7 +36,7 @@ const App = () => {
 
   return (
       <Fragment>
-        <div className="m" ref={myRef}>
+        <div ref={myRef}>
           <div id="landing">
             <Hero />
           </div>
