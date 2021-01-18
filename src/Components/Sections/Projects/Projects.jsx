@@ -101,11 +101,11 @@ const Projects = () => {
                         <div className="ml-4 mr-4">
                             <i style={{ color: '#E44D26' }} className="fab fa-html5"></i>
                         </div>
-                        <div className="ml-4 mr-3">
-                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
-                        </div>
                         <div className="ml-4 mr-4">
                             <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                        </div>
+                        <div className="ml-4 mr-3">
+                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
                         </div>
                         <div className="ml-4 mr-4">
                             <i style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
