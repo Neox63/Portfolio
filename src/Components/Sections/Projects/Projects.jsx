@@ -35,19 +35,19 @@ const Projects = () => {
                         prod="/"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#01CFF4' }} className="fab fa-react"></i>
+                            <i title="ReactJS" style={{ color: '#01CFF4' }} className="fab fa-react"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                            <i title="Javascript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
+                            <i title="Bootstrap" style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#C76494' }} className="fab fa-sass"></i>
+                            <i title="Sass" style={{ color: '#C76494' }} className="fab fa-sass"></i>
                         </div>
                     </ProjectCard>
 
@@ -60,13 +60,13 @@ const Projects = () => {
                         prod="https://covid19-tracker-eta.vercel.app/"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#01CFF4' }} className="fab fa-react"></i>
+                            <i title="ReactJS" style={{ color: '#01CFF4' }} className="fab fa-react"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                            <i title="JavaScript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
                         </div>
                     </ProjectCard>
 
@@ -76,19 +76,19 @@ const Projects = () => {
                         prod="http://www.chambrechezmamiedo.com/"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#E44D26' }} className="fab fa-html5"></i>
+                            <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                         <div className="ml-3 mr-3">
-                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
+                            <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                            <i title="JavaScript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#9D6C27' }} className="fas fa-database"></i>
+                            <i title="MySQL" style={{ color: '#9D6C27' }} className="fas fa-database"></i>
                         </div>
                     </ProjectCard>
 
@@ -99,19 +99,19 @@ const Projects = () => {
                         desc="The web version of the GMAO Software Project !"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#E44D26' }} className="fab fa-html5"></i>
+                            <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                         <div className="ml-4 mr-3">
-                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
+                            <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
+                            <i title="Bootstrap" style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#9D6C27' }} className="fas fa-database"></i>
+                            <i title="MySQL" style={{ color: '#9D6C27' }} className="fas fa-database"></i>
                         </div>
                     </ProjectCard>            
                     
@@ -125,16 +125,16 @@ const Projects = () => {
                         prod="http://sio.jbdelasalle.com/godefroyshopping3/index.php?page=connexion"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#E44D26' }} className="fab fa-html5"></i>
+                            <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                         <div className="ml-3 mr-3">
-                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
+                            <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
                         </div>
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#9D6C27' }} className="fas fa-database"></i>
+                            <i title="MySQL" style={{ color: '#9D6C27' }} className="fas fa-database"></i>
                         </div>
                     </ProjectCard>
                 </Container>
@@ -151,7 +151,7 @@ const Projects = () => {
                         repo="https://github.com/Neox63/Covid19-Tracker-Java"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#DE322D' }} className="fab fa-java"></i>
+                            <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
                         </div>
                     </ProjectCard>
 
@@ -163,7 +163,7 @@ const Projects = () => {
                         desc="Wanna locate someone ? This is what you need !"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#DE322D' }} className="fab fa-java"></i>
+                            <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
                         </div>
                     </ProjectCard>
 
@@ -174,10 +174,10 @@ const Projects = () => {
                         desc="The administrator application for the GMAO project above !"
                     >
                         <div className="ml-4 mr-4">
-                            <i style={{ color: '#DE322D' }} className="fab fa-java"></i>
+                            <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
                         </div>
                         <div className="ml-3 mr-3">
-                            <i style={{ color: '#777BB3' }} className="fab fa-php"></i>
+                            <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
                         </div>
                     </ProjectCard>
                 </Container>
