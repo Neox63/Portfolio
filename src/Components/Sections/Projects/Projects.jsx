@@ -73,7 +73,6 @@ const Projects = () => {
 
                     <ProjectCard 
                         img={ mp3 } 
-                        isNew 
                         title="MP3 Downloader" 
                         desc="Download your favorite musics with this tool ! Let's vibe !" 
                         repo="https://github.com/Neox63/MP3-Downloader" 
