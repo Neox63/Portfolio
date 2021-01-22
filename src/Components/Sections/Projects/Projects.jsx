@@ -10,6 +10,7 @@ import chambre from '../../../assets/images/chambreChezMamieDo.png';
 import godefroyShop from '../../../assets/images/godefroy-shopping.png';
 import gmagroWeb from '../../../assets/images/gmagroww.png';
 import portfolio from '../../../assets/images/portfolio.png';
+import mp3 from '../../../assets/images/mp3.png';
 
 // Java pictures imports
 import covidJava from '../../../assets/images/covidtracker-java.png';
@@ -67,6 +68,22 @@ const Projects = () => {
                         </div>
                         <div className="ml-4 mr-4">
                             <i title="JavaScript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                        </div>
+                    </ProjectCard>
+
+                    <ProjectCard 
+                        img={ mp3 } 
+                        isNew 
+                        title="MP3 Downloader" 
+                        desc="Download your favorite musics with this tool ! Let's vibe !" 
+                        repo="https://github.com/Neox63/MP3-Downloader-APP" 
+                        prod="https://neox-mp3-downloader.000webhostapp.com/"
+                    >
+                        <div className="ml-3 mr-3">
+                            <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
                         </div>
                     </ProjectCard>
 
