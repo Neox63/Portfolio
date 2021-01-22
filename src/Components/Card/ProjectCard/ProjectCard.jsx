@@ -19,7 +19,7 @@ const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, deprecated
                 </div>
                 <div className="d-flex flex-wrap justify-content-center">
                     { (repo) ? (<a target="_blank" rel="noopener noreferrer" href={ repo } className="btn btn-outline-info m-3">Check it on Github</a>) : (<a href={ repo } className="disabled btn btn-outline-info m-3">Not Available</a>) }  
-                    { (prod) ? (<a target="_blank" rel="noopener noreferrer" href={ prod } className="btn btn-outline-warning m-3">Demo</a>) : (<a href={ prod } className="disabled btn btn-outline-warning m-3">Not Available</a>) }                    
+                    { (prod) ? (<a target="_blank" rel="noopener noreferrer" href={ prod } className="btn btn-outline-warning m-3">Live Demo</a>) : (<a href={ prod } className="disabled btn btn-outline-warning m-3">Not Available</a>) }                    
                 </div>
             </div>
         </div>
