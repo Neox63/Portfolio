@@ -3,9 +3,7 @@ import './SocialCard.css';
 
 const SocialCard = ({ children, link, color }) => {
 
-    const filter = {
-        filter: `drop-shadow(0 0 0.15rem ${color})`
-    }
+    const filter = { filter: `drop-shadow(0 0 0.15rem ${color})` }
 
     return (
         <Fragment>
