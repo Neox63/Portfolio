@@ -76,7 +76,7 @@ const Projects = () => {
                         isNew 
                         title="MP3 Downloader" 
                         desc="Download your favorite musics with this tool ! Let's vibe !" 
-                        repo="https://github.com/Neox63/MP3-Downloader-APP" 
+                        repo="https://github.com/Neox63/MP3-Downloader" 
                         prod="https://neox-mp3-downloader.000webhostapp.com/"
                     >
                         <div className="ml-3 mr-3">
