@@ -73,7 +73,7 @@ const Projects = () => {
                         title="MP3 Downloader" 
                         desc="Download your favorite musics with this tool ! Let's vibe !" 
                         repo="https://github.com/Neox63/MP3-Downloader" 
-                        prod="https://neox-mp3-downloader.000webhostapp.com/"
+                        prod="http://music-downloader.ml/"
                     >
                         <div className="ml-3 mr-3">
                             <i title="PHP" style={{ color: '#777BB3' }} className="fab fa-php"></i>
