@@ -1,7 +1,7 @@
-const Container = (props) => {
+const Container = ({ children }) => {
     return (
         <div className="d-flex flex-wrap justify-content-center">
-            { props.children }
+            { children }
         </div>
     )
 }
