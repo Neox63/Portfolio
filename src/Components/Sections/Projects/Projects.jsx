@@ -24,10 +24,7 @@ const Projects = () => {
             <div className="min-vh-100">
                 <h3 style={{ color: '#43BC90'}} className="text-center mt-5">&lt;Projects /&gt;</h3>
 
-                <h5 className="comment text-center">/* Some Projects may be 404 or deprecated */</h5>
-
-                { /* Web Projects */ }
-                <h4 className="text-center mt-5"><span style={{ color: '#CCDF32' }}>require(</span><span style={{ color: '#CE9178' }}>'web-projects'</span><span style={{ color: '#CCDF32' }}>)</span>;</h4>
+                <h5 className="comment text-center">/* Some projects may be 404 or deprecated */</h5>
                 <Container>
                     <ProjectCard 
                         img={ portfolio } 
@@ -112,7 +109,7 @@ const Projects = () => {
                         img={ gmagroWeb } 
                         schoolProject 
                         title="GMAO" 
-                        desc="The web version of the GMAO Software Project !"
+                        desc="The web version of the GMAO Software Project."
                     >
                         <div className="ml-4 mr-4">
                             <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
@@ -137,7 +134,7 @@ const Projects = () => {
                         deprecated 
                         isNew={ false } 
                         title="Godefroy Shopping" 
-                        desc="A website for the sale of used products, wanna buy something ?" 
+                        desc="A website for the sale of used products." 
                         prod="http://sio.jbdelasalle.com/godefroyshopping3/index.php?page=connexion"
                     >
                         <div className="ml-4 mr-4">
@@ -153,11 +150,7 @@ const Projects = () => {
                             <i title="MySQL" style={{ color: '#9D6C27' }} className="fas fa-database"></i>
                         </div>
                     </ProjectCard>
-                </Container>
 
-                { /* Java Projects */ }
-                <h4 className="text-center mt-5"><span style={{ color: '#CCDF32' }}>require(</span><span style={{ color: '#CE9178' }}>'java-projects'</span><span style={{ color: '#CCDF32' }}>)</span>;</h4>
-                <Container>
                     <ProjectCard 
                         img={ covidJava } 
                         deprecated = { false } 
@@ -187,7 +180,7 @@ const Projects = () => {
                         img={ gmagro } 
                         schoolProject 
                         title="GMAO Manager Tool" 
-                        desc="The administrator application for the GMAO project above !"
+                        desc="The administrator application for the GMAO project above."
                     >
                         <div className="ml-4 mr-4">
                             <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
