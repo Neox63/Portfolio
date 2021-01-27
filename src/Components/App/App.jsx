@@ -1,11 +1,10 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 
-import { Fragment, useEffect, useRef, useState } from 'react';
+import { Fragment } from 'react';
 import AboutMe from '../Sections/AboutMe/AboutMe';
 import Hero from '../Sections/Hero/Hero';
 import Projects from '../Sections/Projects/Projects';
 import Skills from '../Sections/Skills/Skills';
-import NET from 'vanta/dist/vanta.net.min'
 import Footer from '../Footer/Footer';
 
 const App = () => {
