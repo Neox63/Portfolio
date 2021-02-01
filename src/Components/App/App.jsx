@@ -20,7 +20,7 @@ const App = () => {
         </div>
 
         <div id="skills">
-        <Skills />
+          <Skills />
         </div>
 
         <div id="projects">
