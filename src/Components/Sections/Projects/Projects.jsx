@@ -131,7 +131,6 @@ const Projects = () => {
                     <ProjectCard 
                         img={ godefroyShop } 
                         schoolProject 
-                        deprecated 
                         isNew={ false } 
                         title="Godefroy Shopping" 
                         desc="A website for the sale of used products." 
@@ -153,7 +152,6 @@ const Projects = () => {
 
                     <ProjectCard 
                         img={ covidJava } 
-                        deprecated = { false } 
                         isNew 
                         title="Covid19 Tracker Java" 
                         desc="The same application as the ReactJS one above but built with JavaFX. Once again, stay home !" 

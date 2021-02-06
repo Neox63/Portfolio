@@ -1,6 +1,6 @@
 import './ProjectCard.css';
 
-const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, deprecated, schoolProject }) => {
+const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, schoolProject }) => {
 
     return (
         <div className="card m-3">
@@ -9,7 +9,6 @@ const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, deprecated
                 <div className="d-flex flex-wrap">
                     { (isNew) ? (<h5 style={{letterSpacing: '1px'}}><span className="badge badge-pill badge-success mr-2">New</span></h5>) : ('') }
                     { (schoolProject) ? (<h5><span className="word-break badge badge-pill badge-info mr-2">School Project</span></h5>) : ('') }
-                    { (deprecated) ? (<h5><span className="word-break badge badge-pill badge-warning mr-2">Warning : This is an old project</span></h5>) : ('') }
                     { (repo) ? (<h5><span className="word-break badge badge-pill badge-primary mr-2">Open Source</span></h5>) : ('') }
                 </div>
                 <h5 className="card-title">{ title }</h5>
