@@ -11,6 +11,7 @@ import godefroyShop from '../../../assets/images/godefroy-shopping.png';
 import gmagroWeb from '../../../assets/images/gmagroww.png';
 import portfolio from '../../../assets/images/portfolio.png';
 import mp3 from '../../../assets/images/mp3.png';
+import scraper from '../../../assets/images/scraper.png';
 
 // Java pictures imports
 import covidJava from '../../../assets/images/covidtracker-java.png';
@@ -46,6 +47,21 @@ const Projects = () => {
                         </div>
                         <div className="ml-4 mr-4">
                             <i title="Sass" style={{ color: '#C76494' }} className="fab fa-sass"></i>
+                        </div>
+                    </ProjectCard>
+
+                    <ProjectCard 
+                        img={ scraper } 
+                        isNew 
+                        title="Web Scraper" 
+                        desc="A tool for scraping websites that converts data to an Excel file." 
+                        repo="https://github.com/Neox63/Asialand-Scraper" 
+                    >
+                        <div className="ml-4 mr-4">
+                            <i title="JavaScript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="NodeJS" style={{ color: '#366A31' }} className="fab fa-node-js"></i>
                         </div>
                     </ProjectCard>
 
