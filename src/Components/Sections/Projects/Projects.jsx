@@ -12,6 +12,7 @@ import gmagroWeb from '../../../assets/images/gmagroww.png';
 import portfolio from '../../../assets/images/portfolio.png';
 import mp3 from '../../../assets/images/mp3.png';
 import scraper from '../../../assets/images/scraper.png';
+import gasho from '../../../assets/images/gasho.png';
 
 // Java pictures imports
 import covidJava from '../../../assets/images/covidtracker-java.png';
@@ -51,6 +52,30 @@ const Projects = () => {
                     </ProjectCard>
 
                     <ProjectCard 
+                        img={ gasho } 
+                        isNew 
+                        title="Gasho Beats" 
+                        desc="A simple portfolio for a french beat maker. Check it out !"
+                        prod="https://gasho-beats.vercel.app"  
+                    >
+                        <div className="ml-4 mr-4">
+                            <i title="ReactJS" style={{ color: '#01CFF4' }} className="fab fa-react"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Javascript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Bootstrap" style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Sass" style={{ color: '#C76494' }} className="fab fa-sass"></i>
+                        </div>
+                    </ProjectCard>
+
+                    <ProjectCard 
                         img={ scraper } 
                         isNew 
                         title="Web Scraper" 
@@ -66,8 +91,7 @@ const Projects = () => {
                     </ProjectCard>
 
                     <ProjectCard 
-                        img={ covid } 
-                        isNew 
+                        img={ covid }  
                         title="Covid19 Tracker" 
                         desc="Retrieve data of the Covid19 pandemic, stay home and wear a mask !" 
                         repo="https://github.com/Neox63/Covid19-Tracker" 
@@ -167,8 +191,7 @@ const Projects = () => {
                     </ProjectCard>
 
                     <ProjectCard 
-                        img={ covidJava } 
-                        isNew 
+                        img={ covidJava }  
                         title="Covid19 Tracker Java" 
                         desc="The same application as the ReactJS one above but built with JavaFX. Once again, stay home !" 
                         repo="https://github.com/Neox63/Covid19-Tracker-Java"
