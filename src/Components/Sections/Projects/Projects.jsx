@@ -56,7 +56,7 @@ const Projects = () => {
                         isNew 
                         title="Gasho Beats" 
                         desc="A simple portfolio for a french beat maker. Check it out !"
-                        prod="https://gasho-beats.vercel.app"  
+                        prod="https://gasho-beats.tk"  
                     >
                         <div className="ml-4 mr-4">
                             <i title="ReactJS" style={{ color: '#01CFF4' }} className="fab fa-react"></i>
