@@ -1,11 +1,14 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+
 import { Fragment } from 'react';
-import AboutMe from '../AboutMe/AboutMe';
+import AboutMe from '../Sections/AboutMe/AboutMe';
 import Hero from '../Sections/Hero/Hero';
 import Projects from '../Sections/Projects/Projects';
 import Skills from '../Sections/Skills/Skills';
-import './App.css';
+import Footer from '../Footer/Footer';
 
 const App = () => {
+
   return (
       <Fragment>
         <div id="landing">
@@ -17,11 +20,15 @@ const App = () => {
         </div>
 
         <div id="skills">
-        <Skills />
+          <Skills />
         </div>
 
         <div id="projects">
           <Projects />
+        </div>
+
+        <div id="footer">
+          <Footer />
         </div>
       </Fragment>
   );

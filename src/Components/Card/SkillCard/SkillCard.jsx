@@ -1,11 +1,14 @@
 import './SkillCard.css';
 
-const SkillCard = ({logo, title}) => {
+const SkillCard = ({logo, title, color}) => {
+
+    const filter = { filter: `drop-shadow(0 0 0.25rem ${color})` }
+
     return (
-        <div className="skill-card m-3">
-            <div> {logo} </div>
+        <div style={filter} className="skill-card m-3">
+            <div>{ logo }</div>
             <div className="text-content">
-                <span className="card-title"><strong>{ title }</strong></span>
+                <span className="card-title">{ title }</span>
             </div>
         </div>
     )
