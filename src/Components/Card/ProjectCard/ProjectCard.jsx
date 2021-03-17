@@ -1,13 +1,16 @@
 import './ProjectCard.css';
 
-const ProjectCard = ({ children, img, title, desc, repo, prod, isNew, schoolProject, ppe }) => {
+const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, schoolProject, ppe, freelance }) => {
+
+    const filter = { filter: `drop-shadow(0 0 0.25rem ${color})` }
 
     return (
-        <div className="card m-3">
+        <div style={ filter } className="project-card card m-3">
             <img className="card-img-top" src={ img } alt={ title } />
             <div className="card-body">
                 <div className="d-flex flex-wrap">
                     { (isNew) ? (<h5 style={{letterSpacing: '1px'}}><span className="badge badge-pill badge-success mr-2">New</span></h5>) : ('') }
+                    { (freelance) ? (<h5 style={{letterSpacing: '1px'}}><span className="badge badge-pill badge-danger mr-2">Freelance</span></h5>) : ('') }
                     { (schoolProject) ? (<h5><span className="word-break badge badge-pill badge-info mr-2">School Project</span></h5>) : ('') }
                     { (repo) ? (<h5><span className="word-break badge badge-pill badge-primary mr-2">Open Source</span></h5>) : ('') }
                     { (ppe) ? (<h5><span className="word-break badge badge-pill badge-secondary mr-2">PPE</span></h5>) : ('') }

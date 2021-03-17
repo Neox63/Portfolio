@@ -19,3 +19,8 @@ html, body {
     backdrop-filter: blur(8px);
     border-radius: 20px;
 }
+
+.title {
+    font-size: 2rem;
+    font-weight: 1000;
+}

@@ -1,6 +1,15 @@
 .card {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     max-width: 500px;
+}
+
+.project-card {
+    transition: .5s;
+}
+
+.project-card:hover {
+    transition: .5s;
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 img {

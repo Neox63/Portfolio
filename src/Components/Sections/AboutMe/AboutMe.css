@@ -13,6 +13,15 @@ i {
 .img {
     border-radius: 15px;
     filter: drop-shadow(0 0 0.85rem #9C69E0);
+    animation-name: pulse;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1) }  
+    50% { transform: scale(1.01); }
+    100% { transform: scale(1); }
 }
 
 .img-wrapper img{
@@ -20,7 +29,6 @@ i {
     height: 320px;
 }
 
-.about-sub-title {
-    font-size: 2.6rem;
-    font-weight: 1000;
+.biography {
+    font-size: 1.4rem;
 }
