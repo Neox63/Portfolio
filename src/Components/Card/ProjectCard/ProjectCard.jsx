@@ -1,6 +1,6 @@
 import './ProjectCard.css';
 
-const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, schoolProject, ppe, freelance }) => {
+const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, schoolProject, ppe, freelance, e4 }) => {
 
     const filter = { filter: `drop-shadow(0 0 0.25rem ${color})` }
 
@@ -23,6 +23,7 @@ const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, sch
                 <div className="d-flex flex-wrap justify-content-center">
                     { (repo) ? (<a target="_blank" rel="noopener noreferrer" href={ repo } className="btn btn-outline-info m-3">Check it on Github</a>) : (<a href={ repo } className="disabled btn btn-outline-info m-3">Not Available</a>) }  
                     { (prod) ? (<a target="_blank" rel="noopener noreferrer" href={ prod } className="btn btn-outline-warning m-3">Live Demo</a>) : (<a href={ prod } className="disabled btn btn-outline-warning m-3">Not Available</a>) }                    
+                    { (ppe) ? (<a download target="_blank" rel="noopener noreferrer" href={ e4 } className="btn btn-outline-danger m-3">E4</a>) : ('') }
                 </div>
             </div>
         </div>

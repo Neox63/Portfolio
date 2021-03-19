@@ -208,11 +208,9 @@ const Projects = () => {
                         color="#D6A61F"
                         img={ godefroyShop } 
                         schoolProject 
-                        isNew={ false } 
                         title="Godefroy Shopping" 
                         desc="A website for the sale of used products." 
                         prod="http://sio.jbdelasalle.com/godefroyshopping3/index.php?page=connexion"
-                        ppe
                     >
                         <div className="ml-4 mr-4">
                             <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>

@@ -13,15 +13,12 @@ i {
 .img {
     border-radius: 15px;
     filter: drop-shadow(0 0 0.85rem #9C69E0);
-    animation-name: pulse;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
+    transition: .5s;
 }
 
-@keyframes pulse {
-    0% { transform: scale(1) }  
-    50% { transform: scale(1.01); }
-    100% { transform: scale(1); }
+.img:hover {
+    transition: .5s;
+    transform: scale(1.05);
 }
 
 .img-wrapper img{
