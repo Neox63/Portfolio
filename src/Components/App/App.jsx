@@ -1,37 +1,24 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-
-import { Fragment } from 'react';
-import AboutMe from '../Sections/AboutMe/AboutMe';
-import Hero from '../Sections/Hero/Hero';
-import Projects from '../Sections/Projects/Projects';
-import Skills from '../Sections/Skills/Skills';
-import Footer from '../Footer/Footer';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NotFound from "../Sections/404/NotFound.jsx";
+import Home from './Home.jsx';
+import EFour from './EFour.jsx';
+import GmagroWeb from "../Project/GmagroWeb.jsx";
+import GmagroJava from "../Project/GmagroJava.jsx";
+import GmagroAndroid from "../Project/GmagroAndroid.jsx";
 
 const App = () => {
-
-  return (
-      <Fragment>
-        <div id="landing">
-          <Hero />
-        </div>
-        
-        <div id="about">
-          <AboutMe />
-        </div>
-
-        <div id="skills">
-          <Skills />
-        </div>
-
-        <div id="projects">
-          <Projects />
-        </div>
-
-        <div id="footer">
-          <Footer />
-        </div>
-      </Fragment>
-  );
+    return (
+        <Router>
+            <Switch>   
+                <Route exact path="/" component={ Home } />
+                <Route exact path="/e4" component={ EFour } />
+                <Route path="/e4/gmagro-web" component={ GmagroWeb } />
+                <Route path="/e4/gmagro-desktop" component={ GmagroJava } />
+                <Route path="/e4/gmagro-android" component={ GmagroAndroid } />
+                <Route component={ NotFound } />
+            </Switch>
+        </Router>
+    )
 }
 
 export default App;

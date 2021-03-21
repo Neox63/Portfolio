@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <div className="aer d-flex flex-column align-items-center justify-content-center min-vh-100">
+        <div className="d-flex flex-column align-items-center justify-content-center min-vh-100">
             <div className="d-flex flex-column justify-content-center p-2 blurBg">
                 <h4><span style={{ color: '#D197D9' }}>import </span><a style={{ color: '#569CD6' }} href='#about'>ThingsAboutMe</a> <span style={{ color: '#D197D9' }}>from </span><span style={{ color: '#CE9178' }}>'Brain'</span>;</h4>
                 <h4><span style={{ color: '#D197D9' }}>import </span><a style={{ color: '#569CD6' }} href='#skills'>Skills</a> <span style={{ color: '#D197D9' }}>from </span><span style={{ color: '#CE9178' }}>'Stack Overflow'</span>;</h4>

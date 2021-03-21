@@ -24,3 +24,35 @@ html, body {
     font-size: 2rem;
     font-weight: 1000;
 }
+
+.landing-android {
+    background-image: url('./assets/E4/Android/unknown.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.darkBg {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.code-section {
+    background-color: #011627;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.str {
+    color: #569CD6;
+}
+
+.char {
+    color: #fff;
+}
+
+.attribute {
+    color: #7fdbca;
+}
+
+.value {
+    color: #ecc48d;
+}

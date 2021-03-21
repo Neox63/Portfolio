@@ -4,19 +4,16 @@ import React, { Fragment } from 'react';
 import ProjectCard from '../../Card/ProjectCard/ProjectCard';
 import Container from '../../Container/Container';
 
-// Web pictures imports
 import covid from '../../../assets/images/covidtracker.png';
 import chambre from '../../../assets/images/chambreChezMamieDo.png';
 import godefroyShop from '../../../assets/images/godefroy-shopping.png';
-import gmagroWeb from '../../../assets/images/gmagroww.png';
 import mp3 from '../../../assets/images/mp3.png';
 import scraper from '../../../assets/images/scraper.png';
 import gasho from '../../../assets/images/gasho.png';
-
-// Java pictures imports
 import covidJava from '../../../assets/images/covidtracker-java.png';
-import gmagro from '../../../assets/images/gmagro.png';
-import gmagroAndroid from '../../../assets/images/gmagroAndroid.png';
+import gmagro from '../../../assets/E4/Desktop/gmagrodesktop-mockup.png';
+import gmagroAndroid from '../../../assets/E4/Android/gmagroandroid-mockup.png';
+import gmagroWeb from '../../../assets/E4/Web/gmagroweb-mockup.png';
 
 const Projects = () => {
     return (
@@ -151,6 +148,8 @@ const Projects = () => {
                         desc="An Android Application to manage the GMAGRO's interventions."
                         isNew
                         ppe
+                        e4
+                        path="gmagro-android"
                     >
                         <div className="ml-3 mr-3">
                             <i title="Android" style={{ color: '#A0C036' }} class="fab fa-android"></i>
@@ -170,6 +169,8 @@ const Projects = () => {
                         title="GMAGRO Web" 
                         desc="A Web application for GMAGRO speakers."
                         ppe
+                        e4
+                        path="gmagro-web"
                     >
                         <div className="ml-4 mr-4">
                             <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
@@ -195,6 +196,8 @@ const Projects = () => {
                         title="GMAGRO Desktop" 
                         desc="A Desktop application to manage the database of GMAGRO"
                         ppe
+                        e4
+                        path="gmagro-desktop"
                     >
                         <div className="ml-4 mr-4">
                             <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
@@ -211,6 +214,7 @@ const Projects = () => {
                         title="Godefroy Shopping" 
                         desc="A website for the sale of used products." 
                         prod="http://sio.jbdelasalle.com/godefroyshopping3/index.php?page=connexion"
+                        ppe
                     >
                         <div className="ml-4 mr-4">
                             <i title="HTML5" style={{ color: '#E44D26' }} className="fab fa-html5"></i>
