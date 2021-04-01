@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NotFound from "../Sections/404/NotFound.jsx";
 import Home from './Home.jsx';
-import EFour from './EFour.jsx';
-import GmagroWeb from "../Project/GmagroWeb.jsx";
-import GmagroJava from "../Project/GmagroJava.jsx";
-import GmagroAndroid from "../Project/GmagroAndroid.jsx";
+// import EFour from './EFour.jsx';
+// import GmagroWeb from "../Project/GmagroWeb.jsx";
+// import GmagroJava from "../Project/GmagroJava.jsx";
+// import GmagroAndroid from "../Project/GmagroAndroid.jsx";
 
 const App = () => {
     return (

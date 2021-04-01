@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './ProjectCard.css';
 
 const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, schoolProject, ppe, freelance, e4, path }) => {
