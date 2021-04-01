@@ -24,7 +24,7 @@ const ProjectCard = ({ children, color, img, title, desc, repo, prod, isNew, sch
                 <div className="d-flex flex-wrap justify-content-center">
                     { (repo) ? (<a target="_blank" rel="noopener noreferrer" href={ repo } className="btn btn-outline-info m-3">Check it on Github</a>) : (<a href="/" className="disabled btn btn-outline-info m-3">Not Available</a>) }  
                     { (prod) ? (<a target="_blank" rel="noopener noreferrer" href={ prod } className="btn btn-outline-warning m-3">Live Demo</a>) : (<a href="/" className="disabled btn btn-outline-warning m-3">Not Available</a>) }                    
-                    { (e4) ? (<Link to={ `e4/${path}` }><div className="btn btn-outline-danger m-3">E4 Details</div></Link>) : ('') }
+                    {/* { (e4) ? (<Link to={ `e4/${path}` }><div className="btn btn-outline-danger m-3">E4 Details</div></Link>) : ('') } */}
                 </div>
             </div>
         </div>
