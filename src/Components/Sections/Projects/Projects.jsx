@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import ProjectCard from '../../Card/ProjectCard/ProjectCard';
 import Container from '../../Container/Container';
 
+import portfolio from '../../../assets/images/portfolio.png';
 import covid from '../../../assets/images/covidtracker.png';
 import chambre from '../../../assets/images/chambreChezMamieDo.png';
 import godefroyShop from '../../../assets/images/godefroy-shopping.png';
@@ -62,6 +63,30 @@ const Projects = () => {
                         </div>
                         <div className="ml-4 mr-4">
                             <i title="NodeJS" style={{ color: '#366A31' }} className="fab fa-node-js"></i>
+                        </div>
+                    </ProjectCard>
+
+                    <ProjectCard 
+                        color="#3F077D"
+                        img={ portfolio }  
+                        title="My Portfolio" 
+                        desc="Yes, it's that portfolio you're thinking about..."
+                        repo="https://github.com/Neox63/Portfolio" 
+                    >
+                        <div className="ml-4 mr-4">
+                            <i title="ReactJS" style={{ color: '#01CFF4' }} className="fab fa-react"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="CSS3" style={{ color: '#3C9CD7' }} className="fab fa-css3"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Javascript" style={{ color: '#F7DF1E' }} className="fab fa-js-square"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Bootstrap" style={{ color: '#5D3D8B' }} className="fab fa-bootstrap"></i>
+                        </div>
+                        <div className="ml-4 mr-4">
+                            <i title="Sass" style={{ color: '#C76494' }} className="fab fa-sass"></i>
                         </div>
                     </ProjectCard>
 
@@ -152,7 +177,7 @@ const Projects = () => {
                         path="gmagro-android"
                     >
                         <div className="ml-3 mr-3">
-                            <i title="Android" style={{ color: '#A0C036' }} class="fab fa-android"></i>
+                            <i title="Android" style={{ color: '#A0C036' }} className="fab fa-android"></i>
                         </div>
                         <div className="ml-4 mr-4">
                             <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>

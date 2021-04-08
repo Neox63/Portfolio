@@ -36,7 +36,7 @@ const GmagroWeb = () => {
                         <h4 className="comment text-center mb-5">/* Documentation de l'application */</h4>
                         <Container>
                             <div className="ml-3 mr-3">
-                                <i title="Android" style={{ color: '#A0C036' }} class="fab fa-android"></i>
+                                <i title="Android" style={{ color: '#A0C036' }} className="fab fa-android"></i>
                             </div>
                             <div className="ml-4 mr-4">
                                 <i title="Java" style={{ color: '#DE322D' }} className="fab fa-java"></i>
