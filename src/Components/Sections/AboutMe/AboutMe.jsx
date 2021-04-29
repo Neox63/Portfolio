@@ -61,7 +61,7 @@ const AboutMe = () => {
                 </div>
                 <div className="d-flex justify-content-center m-3">
                     <div className="d-flex flex-column text-center">
-                        <h3 style={{ color: '#43BC90'}} className="title mt-5 mb-3">&lt;Let's make something great ! /&gt;</h3>
+                        <h3 style={{ color: '#43BC90'}} className="title mt-5 mb-3">Let's make something great !</h3>
                         <h4 className="mb-4">You can reach me at the social medias below</h4>
                         <h6 className="comment">/* I'm a nerd, you'll get an answer quickly */</h6>
                         <Container>
