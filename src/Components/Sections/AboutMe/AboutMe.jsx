@@ -69,11 +69,7 @@ const AboutMe = () => {
                                 <i style={{ color: '#fff' }} className='fab fa-github'></i>
                             </SocialCard>
 
-                            <SocialCard color="#1DA1F2" link="https://twitter.com/ma_this_">
-                                <i style={{ color: '#1DA1F2' }} className='fab fa-twitter'></i>
-                            </SocialCard>
-
-                            <SocialCard color="#b7453e" link="mailto:mathischambon85@gmail.com">
+                            <SocialCard color="#b7453e" link="mailto:itmagine.dev@gmail.com">
                                 <i style={{ color: '#b7453e' }} className='fas fa-paper-plane'></i>
                             </SocialCard>
                         </Container>
